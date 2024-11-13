@@ -1,7 +1,3 @@
-Here’s an outline for your `README.md` file for documenting the Laravel background job runner system:
-
----
-
 # Laravel Background Job Runner System
 
 This project is a background job runner system implemented in a Laravel environment. It includes a user-friendly interface for configuring and executing background jobs with various customizable settings, such as delay, retry attempts, and priority handling. Additionally, it logs job processes and errors, accessible via a simple dashboard.
@@ -66,6 +62,8 @@ The system allows for configuration of retry attempts, delays, job priorities, a
 4. **Security Settings**: Configure any required security tokens, such as GitHub tokens, in the job configuration modal. These are stored securely in the session and are required only for authenticated jobs.
 
 ## Usage
+The custom background job running script is located in the `scripts` folder in the root of the Laravel project directory.
+This JobRunner script is used to manage and execute background jobs from the laravel application in the background.
 
 ### Running Background Jobs
 
