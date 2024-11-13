@@ -1,7 +1,3 @@
-Here’s an outline for your `README.md` file for documenting the Laravel background job runner system:
-
----
-
 # Laravel Background Job Runner System
 
 This project is a background job runner system implemented in a Laravel environment. It includes a user-friendly interface for configuring and executing background jobs with various customizable settings, such as delay, retry attempts, and priority handling. Additionally, it logs job processes and errors, accessible via a simple dashboard.
